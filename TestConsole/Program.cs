@@ -8,7 +8,7 @@ namespace TestConsole
         static void Main(string[] args)
         {
             Person aPerson = new Person() { Name = "Bob" };
-            Console.WriteLine(aPerson.Name);
+            Console.WriteLine(aPerson.Name + " is 20");
             Console.ReadKey();
         }
     }
